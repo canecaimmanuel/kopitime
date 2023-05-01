@@ -1,7 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    /* border: 2px solid violet; */
 }
 
+.navbar-brand {
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+.navbar-brand span {
+    color: #a98779;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header section  */
+
+#header-body {
+    background: linear-gradient(rgba(0,0,0,0.5),#4b1f0e), url(image/kopibar.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.header-text {
+    color: #eee;
+    margin-top: 10rem;
+}
+
+.header-text h2 {
+    font-family: 'Meddon';
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #a98779;
+}
+
+.header-text h1 {
+    font-family: 'Staatliches';
+    font-size: 5rem;
+}
+
+#header-body p {
+    font-family: 'Montserrat';
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn a {
+    border: 1px solid #fff;
+    margin-left: 10px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: small;
+    transition: 0.25s ease-in-out;
+}
+
+.header-btn a:hover {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(239,195,164,1) 31%, rgba(75,31,14,0.8801645658263305) 100%);
+    color: black;
+    font-weight: 650;
+    box-shadow: 0px -2px 5px 3px #a98779;
+}
+
+/* main body  */
+
+#main-body {
+    margin-top: 5rem;
+    font-family: 'Montserrat';
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.title span {
+    color: #a98779;
+}
+
+.menu-card {
+    height: 380px;
+    margin: 30px 15px;
+    box-shadow: 5px 5px 20px black;
+    transition: 0.5s;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+}
+
+.menu-card a p {
+    font-family: 'Staatliches';
+    color: #a98779;
+    font-size: x-large;
+}
+
+.button-below {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: small;
+}
+
+.button:hover {
+    background: #a98779;
+    color: #fff;
+    border: #fff;
+}
